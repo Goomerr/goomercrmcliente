@@ -25,10 +25,6 @@ const client = new ApolloClient({
     connectToDevTools: true,
     cache: new InMemoryCache(),
     link: authLink.concat(httpLink),
-    cors: {
-        origin: '*',			// <- allow request from all domains
-        credentials: true
-    },		// <- enable CORS response for requests with creden
 });
 
 export default client;
