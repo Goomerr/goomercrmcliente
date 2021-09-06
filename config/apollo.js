@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-    uri: 'https://goomercrmservidor.herokuapp.com/',
+    uri: 'https://safe-atoll-98733.herokuapp.com/',
     fetch
 });
 
