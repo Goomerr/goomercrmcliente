@@ -84,8 +84,8 @@ const Login = () => {
   
                 //Redirigir a pagina principal(clientes)
                 setTimeout(() => {
-                    guardarMensaje(null);
                     router.push('/');
+                    guardarMensaje(null);
                 }, 1500);
             } catch (error) {
                 console.log(error)
